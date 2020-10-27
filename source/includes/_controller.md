@@ -39,7 +39,7 @@ async function loginController (user, pass) {
 }
 ```
 
-This component is responsible for calling the login endpoint which is located at <code>/api/users/login</code>. The function handleSubmit is called by the <code>onSubmit</code> function of form element on the [login page](#login-jsx). This passes the username and password from the form to this function which is then passed in the post call to the login asp.
+This component is responsible for calling the login endpoint which is located at <code>/api/users/login</code>. The function <code>handleSubmit</code> is called by the <code>onSubmit</code> function of form element on the [login page](#login-jsx). This passes the username and password from the form to this function which is then passed in the post call to the login asp.
 
 <aside class="success">
 The user is successfully validated and logged in once this function receives a 204 status code response.
